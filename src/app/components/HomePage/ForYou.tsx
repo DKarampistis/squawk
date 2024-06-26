@@ -7,7 +7,7 @@ export default function ForYou({ className }: any) {
   return (
     <div className={`space-y-4 ${className}`}>
       <CreatePost
-        avatarImgSrc="https://avatars.githubusercontent.com/u/168587972?s=96&v=4"
+        avatarImgSrc="https://lh3.googleusercontent.com/a/ACg8ocJxGhbK6kWhiM1UIjYcf5xv_u9_hr8AW4354HuPJbo_7jjdWKo=s288-c-no"
       />
 
       <PostCard
