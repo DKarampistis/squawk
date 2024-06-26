@@ -10,7 +10,7 @@ import { GoPersonFill } from "react-icons/go";
 
 export default function LeftSideBar({ className }: any) {
   return (
-    <div className={cn("pt-14 w-64 bg-neutral-900 text-white flex-shrink-0", className)}>
+    <div className={cn("pt-4 w-64 bg-neutral-900 text-white flex-shrink-0", className)}>
       <div className="space-y-4 py-4">
         <div className="py-2">
           <div className="space-y-4">

@@ -7,11 +7,11 @@ export default function PostCard({ avatarImgSrc, name, username, postContext }: 
             <CardHeader>
                 <CardTitle>
                     <div className="flex items-center w-full bg-neutral-900">
-                        <Avatar className="w-12 h-12">
+                        <Avatar className="w-12 h-12 hover:cursor-pointer">
                             <AvatarImage src={avatarImgSrc} className="rounded-full" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
-                        <div className="pl-2">
+                        <div className="pl-2 hover:cursor-pointer">
                             <p className="text-base text-neutral-50 font-bold">{name}</p>
                             <p className="text-sm text-neutral-500">{username}</p>
                         </div>
