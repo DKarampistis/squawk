@@ -37,8 +37,8 @@ export default function RightSideBar({ className }: any) {
               <p className="text-neutral-500 text-sm">2.6k posts</p>
             </div>
             <div>
-              <p className="text-neutral-50 font-bold text-base">#robotics</p>
-              <p className="text-neutral-500 text-sm">2.6k posts</p>
+              <p className="text-neutral-50 font-bold text-base">#technology</p>
+              <p className="text-neutral-500 text-sm">2.5k posts</p>
             </div>
           </CardContent>
         </Card>

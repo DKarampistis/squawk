@@ -19,7 +19,7 @@ export default function NavBar({ className }) {
         <div className="flex justify-between h-14 items-center">
           <Link href="#" className="flex items-center" prefetch={false}>
             <Image src={squawkIcon} alt="Squawk Icon" width={53} height={24} className="h-6 w-13" />
-            <span className="sr-only">Acme Inc</span>
+            <span className="sr-only">Squawk Icon</span>
           </Link>
           <nav className="hidden md:flex gap-36">
             <Button
