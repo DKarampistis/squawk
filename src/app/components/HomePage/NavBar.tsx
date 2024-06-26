@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { FaSearch } from "react-icons/fa";
 
-export default function NavBar() {
+export default function NavBar({ className }) {
   const [activeButton, setActiveButton] = useState('forYou');
 
   const handleButtonClick = (buttonName: any) => {
@@ -14,7 +14,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="fixed inset-x-0 top-0 z-50 bg-neutral-900 shadow-sm">
+    <nav className={`bg-neutral-900 shadow-sm ${className}`}>
       <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-14 items-center">
           <Link href="#" className="flex items-center" prefetch={false}>

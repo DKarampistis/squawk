@@ -7,7 +7,7 @@ import ProfileCardSmall from "../Utils/ProfileCardSmall";
 
 export default function RightSideBar({ className }: any) {
   return (
-    <div className={cn("pt-4 w-80 bg-neutral-900 text-white flex-shrink-0", className)}>
+    <div className={cn("pt-14 w-80 bg-neutral-900 text-white flex-shrink-0", className)}>
       <div className="flex flex-col items-center space-y-4">
         <Card className="w-[275px] bg-neutral-900 border-neutral-500">
           <CardHeader>
