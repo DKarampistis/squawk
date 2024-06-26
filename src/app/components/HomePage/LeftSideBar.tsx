@@ -8,7 +8,7 @@ import { MdNotifications } from "react-icons/md";
 import { FaMessage } from "react-icons/fa6";
 import { GoPersonFill } from "react-icons/go";
 
-export default function SideBar({ className }: any) {
+export default function LeftSideBar({ className }: any) {
   return (
     <div className={cn("pt-14 w-64 bg-neutral-900 text-white flex-shrink-0", className)}>
       <div className="space-y-4 py-4">
