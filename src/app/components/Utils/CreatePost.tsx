@@ -47,8 +47,7 @@ export default function CreatePost({ avatarImgSrc, addPost }: any) {
                 const response = await query({ inputs: inputValue });
                 if (response && response[0] && response[0].generated_text) {
                     const generatedText = response[0].generated_text;
-                    setInputValue("")
-                    setInputValue(prevInputValue => prevInputValue + generatedText);
+                    setInputValue(generatedText);
                 }
                 setQueryResult(response);
                 console.log("Query Result:", response);

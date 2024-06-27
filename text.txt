@@ -1,0 +1,22 @@
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/dkarampistis/Documents/squawk
+
+? Which Firebase features do you want to set up for this directory? Press Space 
+to select features, then Enter to confirm your choices. (Press <space> to 
+select, <a> to toggle all, <i> to invert selection, and <enter> to proceed)
+❯◯ Realtime Database: Configure a security rules file for Realtime Database and 
+(optionally) provision default instance
+ ◯ Firestore: Configure security rules and indexes files for Firestore
+ ◯ Functions: Configure a Cloud Functions directory and its files
+ ◯ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub 
+Action deploys
+ ◯ Hosting: Set up GitHub Action deploys
+(Move up and down to reveal more choices)[41D[41C
